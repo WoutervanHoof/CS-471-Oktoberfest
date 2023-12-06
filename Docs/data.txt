@@ -1,0 +1,75 @@
+Build Dependencies:
+  blas:
+    detection method: pkgconfig
+    found: true
+    include directory: /usr/include
+    lib directory: /usr/lib
+    name: cblas
+    openblas configuration: unknown
+    pc file directory: /usr/lib/pkgconfig
+    version: 3.11.0
+  lapack:
+    detection method: internal
+    found: true
+    include directory: unknown
+    lib directory: unknown
+    name: dep139876000333456
+    openblas configuration: unknown
+    pc file directory: unknown
+    version: 1.26.1
+Compilers:
+  c:
+    commands: cc
+    linker: ld.bfd
+    name: gcc
+    version: 13.2.1
+  c++:
+    commands: c++
+    linker: ld.bfd
+    name: gcc
+    version: 13.2.1
+  cython:
+    commands: cython
+    linker: cython
+    name: cython
+    version: 3.0.3
+Machine Information:
+  build:
+    cpu: x86_64
+    endian: little
+    family: x86_64
+    system: linux
+  host:
+    cpu: x86_64
+    endian: little
+    family: x86_64
+    system: linux
+Python Information:
+  path: /usr/bin/python
+  version: '3.11'
+SIMD Extensions:
+  baseline:
+  - SSE
+  - SSE2
+  - SSE3
+  found:
+  - SSSE3
+  - SSE41
+  - POPCNT
+  - SSE42
+  - AVX
+  - F16C
+  - FMA3
+  - AVX2
+  - AVX512F
+  - AVX512CD
+  - AVX512_SKX
+  - AVX512_CLX
+  - AVX512_CNL
+  - AVX512_ICL
+  not found:
+  - AVX512_KNL
+  - AVX512_KNM
+  - AVX512_SPR
+
+Dotted two 16x16 matrices in 0.00 s.
